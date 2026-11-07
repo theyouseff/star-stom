@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Star-Stom Yunusobod — Stomatologiya klinikasi, Toshkent</title>
+<meta name="description" content="Star-Stom Yunusobod — Toshkent, Yunusobod 4-kvartaldagi zamonaviy stomatologiya klinikasi. Davolash, tish olib tashlash, protezlash, tozalash. Tel: +998 95 170 55 33">
+<meta name="theme-color" content="#0b3d4a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b3d4a'/%3E%3Cpath d='M32 10l6.5 14.2 15.5 1.8-11.5 10.6 3.1 15.4L32 44.4 18.4 52l3.1-15.4L10 26l15.5-1.8z' fill='%23f2b84b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "STAR-STOM YUNUSOBOD",
+  "telephone": "+998951705533",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Yunusobod 4-kvartal, Turizm kolleji ro'parasi",
+    "addressLocality": "Toshkent",
+    "addressCountry": "UZ"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.3618587, "longitude": 69.2809593 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "4" },
+  "closes": "21:00"
+}
+</script>
+<style>
+:root{
+  --ink:#0a2530; --teal:#0b3d4a; --teal-2:#0f5566; --aqua:#2bb7b0; --aqua-soft:#e6f6f5;
+  --gold:#f2b84b; --gold-d:#d99a22; --bg:#f7fafa; --card:#fff; --muted:#5b707a; --line:#e1ebed;
+  --r:20px; --shadow:0 18px 50px -20px rgba(11,61,74,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Manrope',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.12;letter-spacing:-.01em}
+h2{font-size:clamp(28px,4vw,42px);color:var(--teal)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-2);margin-bottom:14px}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--gold)}
+.lead{color:var(--muted);font-size:17px;max-width:620px;margin-top:14px}
+section{padding:92px 0}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:16px;border:2px solid transparent;cursor:pointer;transition:.25s;font-family:inherit}
+.btn svg{width:20px;height:20px}
+.btn-gold{background:var(--gold);color:var(--ink);box-shadow:0 10px 24px -10px rgba(217,154,34,.8)}
+.btn-gold:hover{background:var(--gold-d);transform:translateY(-2px)}
+.btn-ghost{border-color:rgba(255,255,255,.4);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-line{border-color:var(--teal);color:var(--teal)}
+.btn-line:hover{background:var(--teal);color:#fff}
+
+/* topbar + nav */
+.topbar{background:var(--ink);color:#cfe2e6;font-size:13.5px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding:9px 0;flex-wrap:wrap}
+.topbar span,.topbar a{display:inline-flex;align-items:center;gap:8px}
+.topbar svg{width:15px;height:15px;color:var(--gold)}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;font-size:19px;color:var(--teal)}
+.logo-mark{width:42px;height:42px;border-radius:12px;background:var(--teal);display:grid;place-items:center}
+.logo-mark svg{width:24px;height:24px;color:var(--gold)}
+.logo small{display:block;font-size:11px;font-weight:600;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-top:-3px}
+nav ul{display:flex;gap:30px;list-style:none;font-weight:600;font-size:15px}
+nav a{color:var(--ink);opacity:.75;transition:.2s}
+nav a:hover{opacity:1;color:var(--teal-2)}
+.nav-right{display:flex;align-items:center;gap:14px}
+.lang{display:flex;background:var(--aqua-soft);border-radius:999px;padding:3px}
+.lang button{border:0;background:transparent;font:700 13px 'Manrope';padding:6px 12px;border-radius:999px;cursor:pointer;color:var(--teal-2)}
+.lang button.on{background:var(--teal);color:#fff}
+.nav .btn{padding:11px 20px;font-size:15px}
+.burger{display:none;background:none;border:0;cursor:pointer;color:var(--teal)}
+.burger svg{width:28px;height:28px}
+
+/* hero */
+.hero{background:radial-gradient(1200px 600px at 85% -10%,#17808f 0%,transparent 60%),linear-gradient(160deg,#0b3d4a,#082c37);color:#fff;padding:90px 0 120px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -80px -140px auto;width:520px;height:520px;border-radius:50%;border:70px solid rgba(43,183,176,.08)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:8px 16px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:24px}
+.badge i{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.25)}
+.hero h1{font-size:clamp(38px,5.6vw,66px);font-weight:700}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{font-size:18px;color:#bcd6dc;margin:22px 0 34px;max-width:520px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(10px);border-radius:28px;padding:34px}
+.rating{display:flex;align-items:center;gap:18px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.14)}
+.rating b{font-family:'Fraunces',serif;font-size:60px;line-height:1}
+.stars{display:flex;gap:3px;color:var(--gold)}
+.stars svg{width:20px;height:20px}
+.rating small{color:#a9c6cd;font-size:14px}
+.facts{list-style:none;display:grid;gap:18px;margin-top:24px}
+.facts li{display:flex;gap:14px;align-items:flex-start}
+.facts .ic{flex:none;width:42px;height:42px;border-radius:12px;background:rgba(242,184,75,.16);display:grid;place-items:center;color:var(--gold)}
+.facts .ic svg{width:21px;height:21px}
+.facts strong{display:block;font-size:15px}
+.facts span{font-size:14px;color:#a9c6cd}
+
+/* strip */
+.strip{margin-top:-60px;position:relative;z-index:2}
+.strip .grid{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr)}
+.strip .item{padding:30px 28px;display:flex;gap:16px;align-items:center;border-right:1px solid var(--line)}
+.strip .item:last-child{border:0}
+.strip .ic{flex:none;width:50px;height:50px;border-radius:14px;background:var(--aqua-soft);color:var(--teal-2);display:grid;place-items:center}
+.strip .ic svg{width:25px;height:25px}
+.strip b{display:block;font-size:16px;color:var(--teal)}
+.strip span{font-size:14px;color:var(--muted)}
+
+/* services */
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:50px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:32px;transition:.3s;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;height:4px;width:0;background:linear-gradient(90deg,var(--aqua),var(--gold));transition:.4s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
+.card:hover::before{width:100%}
+.card .ic{width:56px;height:56px;border-radius:16px;background:var(--aqua-soft);color:var(--teal-2);display:grid;place-items:center;margin-bottom:22px}
+.card .ic svg{width:28px;height:28px}
+.card h3{font-size:22px;color:var(--teal);margin-bottom:10px}
+.card p{color:var(--muted);font-size:15.5px}
+
+/* why */
+.why{background:var(--teal);color:#fff;position:relative;overflow:hidden}
+.why h2{color:#fff}
+.why .eyebrow{color:var(--gold)}
+.why .lead{color:#a9c6cd}
+.why .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+.why-list{display:grid;gap:16px}
+.why-item{display:flex;gap:18px;padding:24px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.why-item .n{flex:none;font-family:'Fraunces',serif;font-size:30px;color:var(--gold);width:44px}
+.why-item h3{font-size:19px;font-family:'Manrope';font-weight:700;margin-bottom:4px}
+.why-item p{color:#a9c6cd;font-size:15px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
+.step{position:relative;padding:30px 26px;background:var(--card);border-radius:var(--r);border:1px solid var(--line)}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:'Fraunces',serif;font-size:44px;color:var(--aqua);opacity:.5;display:block;line-height:1;margin-bottom:16px}
+.step h3{font-size:19px;color:var(--teal);margin-bottom:6px;font-family:'Manrope';font-weight:700}
+.step p{font-size:15px;color:var(--muted)}
+
+/* reviews */
+.reviews{background:var(--aqua-soft)}
+.rv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.rv{background:#fff;border-radius:var(--r);padding:30px;box-shadow:0 10px 30px -18px rgba(11,61,74,.3)}
+.rv .stars svg{width:17px;height:17px}
+.rv p{margin:16px 0 22px;font-size:16px}
+.rv .who{display:flex;align-items:center;gap:12px;font-size:14px}
+.rv .av{width:42px;height:42px;border-radius:50%;background:var(--teal);color:var(--gold);display:grid;place-items:center;font-weight:800}
+.rv small{color:var(--muted);display:block}
+.rv-link{margin-top:34px;text-align:center}
+
+/* contact */
+.contact .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:stretch}
+.info{display:grid;gap:16px;margin-top:30px}
+.info a,.info div.row{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;background:var(--card);border:1px solid var(--line);border-radius:18px;transition:.25s}
+.info a:hover{border-color:var(--aqua);transform:translateX(4px)}
+.info .ic{flex:none;width:46px;height:46px;border-radius:13px;background:var(--aqua-soft);color:var(--teal-2);display:grid;place-items:center}
+.info .ic svg{width:22px;height:22px}
+.info small{display:block;font-size:13px;color:var(--muted);font-weight:600}
+.info strong{font-size:17px;color:var(--teal)}
+.map{border-radius:28px;overflow:hidden;box-shadow:var(--shadow);min-height:460px;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;min-height:460px;border:0}
+
+/* cta band */
+.band{padding:0 0 92px}
+.band .box{background:linear-gradient(120deg,var(--teal),var(--teal-2));color:#fff;border-radius:32px;padding:56px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;position:relative;overflow:hidden}
+.band .box::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;background:rgba(242,184,75,.18)}
+.band h2{color:#fff;max-width:560px;position:relative;z-index:1}
+.band .btn{position:relative;z-index:1}
+
+footer{background:var(--ink);color:#9bb4bb;padding:56px 0 28px;font-size:14.5px}
+footer .top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,.1)}
+footer .logo{color:#fff}
+footer .logo small{color:#7e99a1}
+footer ul{list-style:none;display:flex;gap:26px;flex-wrap:wrap;align-items:center}
+footer a:hover{color:var(--gold)}
+footer .bot{padding-top:22px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+/* floating call */
+.fab{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center;box-shadow:0 14px 30px -8px rgba(217,154,34,.9);animation:pulse 2.4s infinite}
+.fab svg{width:27px;height:27px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(242,184,75,.6),0 14px 30px -8px rgba(217,154,34,.9)}70%{box-shadow:0 0 0 18px rgba(242,184,75,0),0 14px 30px -8px rgba(217,154,34,.9)}100%{box-shadow:0 0 0 0 rgba(242,184,75,0),0 14px 30px -8px rgba(217,154,34,.9)}}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.fab{animation:none}html{scroll-behavior:auto}}
+
+/* responsive */
+@media(max-width:980px){
+  section{padding:70px 0}
+  .hero .wrap,.why .wrap,.contact .wrap{grid-template-columns:1fr;gap:40px}
+  .services,.rv-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .strip .grid{grid-template-columns:1fr 1fr}
+  .strip .item:nth-child(2){border-right:0}
+  .strip .item:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  nav{position:absolute;top:72px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);display:none;padding:18px 20px}
+  nav.open{display:block}
+  nav ul{flex-direction:column;gap:18px}
+  .burger{display:block}
+  .nav .btn{display:none}
+}
+@media(max-width:640px){
+  .wrap{width:min(1160px,100% - 32px)}
+  .topbar .hide-s{display:none}
+  .services,.rv-grid,.steps{grid-template-columns:1fr}
+  .strip .grid{grid-template-columns:1fr}
+  .strip .item{border-right:0;border-bottom:1px solid var(--line)}
+  .strip .item:last-child{border:0}
+  .hero{padding:60px 0 100px}
+  .band .box{padding:36px 26px}
+  .hero-card{padding:26px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.2 5.5 22l1.7-7.4-5.7-5 7.5-.7z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></g></symbol>
+  <symbol id="i-tooth" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 3C4.5 3 3 5 3 7.5c0 2 1 3.5 1.5 5.5.6 2.4.7 8 2.8 8 1.7 0 1.4-5 4.7-5s3 5 4.7 5c2.1 0 2.2-5.600 2.800-8 .5-2 1.500-3.500 1.500-5.500C21 5 19.500 3 17 3c-1.800 0-3 1-5 1S8.800 3 7 3z"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.100 1.900L12 17l-1.900-5.100L5 10l5.100-1.900z"/><path d="M19 17v4M17 19h4"/></g></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20.800 4.600a5.500 5.500 0 00-7.800 0L12 5.700l-1-1.100a5.500 5.500 0 00-7.800 7.800l1 1.100L12 21.200l7.800-7.700 1-1.100a5.500 5.500 0 000-7.800z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 21h14"/><path d="M5 7h14M5 7l-3 7a3.500 3.500 0 006 0zM19 7l-3 7a3.500 3.500 0 006 0z"/></g></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.900M16 3.100a4 4 0 010 7.800"/></g></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 6h18M3 12h18M3 18h18"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.500a3.500 3.500 0 000-7h-11a3.500 3.500 0 010-7H15"/><circle cx="18" cy="5" r="3"/></g></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="hide-s"><svg><use href="#i-pin"/></svg><span data-i="top_addr">Yunusobod 4-kvartal, Toshkent</span></span>
+    <span><svg><use href="#i-clock"/></svg><span data-i="top_hours">21:00 gacha ochiq</span></span>
+    <a href="tel:+998951705533"><svg><use href="#i-phone"/></svg><b>+998 95 170 55 33</b></a>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">
+      <span class="logo-mark"><svg><use href="#i-star"/></svg></span>
+      <span>STAR-STOM<small>Yunusobod</small></span>
+    </a>
+    <nav id="nav">
+      <ul>
+        <li><a href="#services" data-i="n_services">Xizmatlar</a></li>
+        <li><a href="#why" data-i="n_why">Afzalliklar</a></li>
+        <li><a href="#steps" data-i="n_steps">Qabul</a></li>
+        <li><a href="#reviews" data-i="n_reviews">Sharhlar</a></li>
+        <li><a href="#contact" data-i="n_contact">Aloqa</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="uz" class="on">UZ</button>
+        <button data-lang="ru">RU</button>
+      </div>
+      <a href="tel:+998951705533" class="btn btn-gold"><svg><use href="#i-phone"/></svg><span data-i="call">Qo'ng'iroq qilish</span></a>
+      <button class="burger" id="burger" aria-label="Menu"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-bottom:120px">
+  <div class="wrap">
+    <div>
+      <div class="badge"><i></i><span data-i="badge">Hozir ochiq · 21:00 gacha</span></div>
+      <h1><span data-i="h1a">Sog'lom tabassum —</span> <em data-i="h1b">sizning ishonchingiz</em></h1>
+      <p data-i="hero_p">Star-Stom Yunusobod — Toshkent shahrida tish davolash, olib tashlash, protezlash va professional tozalash xizmatlarini taklif etuvchi stomatologiya klinikasi.</p>
+      <div class="cta">
+        <a href="tel:+998951705533" class="btn btn-gold"><svg><use href="#i-phone"/></svg><span data-i="cta1">Qabulga yozilish</span></a>
+        <a href="#contact" class="btn btn-ghost"><svg><use href="#i-pin"/></svg><span data-i="cta2">Manzilni ko'rish</span></a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="rating">
+        <b>4,8</b>
+        <div>
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <small data-i="rating_s">Google Maps reytingi</small>
+        </div>
+      </div>
+      <ul class="facts">
+        <li><span class="ic"><svg><use href="#i-pin"/></svg></span><div><strong data-i="f1t">Yunusobod 4-kvartal</strong><span data-i="f1s">Turizm kolleji ro'parasida, Toshkent</span></div></li>
+        <li><span class="ic"><svg><use href="#i-clock"/></svg></span><div><strong data-i="f2t">21:00 gacha ochiq</strong><span data-i="f2s">Ish tugagach ham qulay vaqtda keling</span></div></li>
+        <li><span class="ic"><svg><use href="#i-phone"/></svg></span><div><strong>+998 95 170 55 33</strong><span data-i="f3s">Qabulga yozilish uchun qo'ng'iroq qiling</span></div></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="grid reveal">
+      <div class="item"><span class="ic"><svg><use href="#i-heart"/></svg></span><div><b data-i="s1t">Mehribon munosabat</b><span data-i="s1s">Har bir bemorga e'tibor</span></div></div>
+      <div class="item"><span class="ic"><svg><use href="#i-shield"/></svg></span><div><b data-i="s2t">Xavfsiz davolash</b><span data-i="s2s">Sterillik va gigiyena</span></div></div>
+      <div class="item"><span class="ic"><svg><use href="#i-clock"/></svg></span><div><b data-i="s3t">Qulay jadval</b><span data-i="s3s">Kechgacha qabul</span></div></div>
+      <div class="item"><span class="ic"><svg><use href="#i-pin"/></svg></span><div><b data-i="s4t">Qulay joylashuv</b><span data-i="s4s">Yunusobod markazida</span></div></div>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow" data-i="sv_eb">Xizmatlar</span>
+        <h2 data-i="sv_h">Tish salomatligi uchun<br>to'liq yechimlar</h2>
+      </div>
+      <p class="lead" data-i="sv_p">Narxlar va davolash rejasi dastlabki ko'rikdan so'ng shifokor tomonidan aniqlanadi.</p>
+    </div>
+    <div class="services">
+      <article class="card reveal"><div class="ic"><svg><use href="#i-tooth"/></svg></div><h3 data-i="c1t">Tish davolash</h3><p data-i="c1p">Kariesni va uning asoratlarini davolash, zamonaviy plomba materiallari bilan tishni tiklash.</p></article>
+      <article class="card reveal"><div class="ic"><svg><use href="#i-sparkle"/></svg></div><h3 data-i="c2t">Professional tozalash</h3><p data-i="c2p">Tish toshi va karashni olib tashlash, tishlarning tabiiy oqligi va toza nafasni qaytarish.</p></article>
+      <article class="card reveal"><div class="ic"><svg><use href="#i-shield"/></svg></div><h3 data-i="c3t">Tish olib tashlash</h3><p data-i="c3p">Kerak bo'lganda ehtiyotkorlik bilan, og'riqsizlantirish ostida va keyingi parvarish bo'yicha tavsiyalar bilan.</p></article>
+      <article class="card reveal"><div class="ic"><svg><use href="#i-scale"/></svg></div><h3 data-i="c4t">Protezlash</h3><p data-i="c4p">Yo'qolgan tishlarni tiklash — chiroyli va qulay protezlar bilan to'liq chaynash imkoniyati.</p></article>
+      <article class="card reveal"><div class="ic"><svg><use href="#i-users"/></svg></div><h3 data-i="c5t">Katta va bolalar uchun</h3><p data-i="c5p">Butun oila uchun tish ko'rigi va maslahat — bir joyda.</p></article>
+      <article class="card reveal"><div class="ic"><svg><use href="#i-heart"/></svg></div><h3 data-i="c6t">Maslahat va ko'rik</h3><p data-i="c6p">Muammoni aniqlash, davolash rejasi va og'iz bo'shlig'i gigiyenasi bo'yicha tavsiyalar.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i="w_eb">Nega biz</span>
+      <h2 data-i="w_h">Siz ishonib kelishingiz mumkin bo'lgan klinika</h2>
+      <p class="lead" data-i="w_p">Bizning maqsadimiz — davolashni sizga tushunarli, qulay va og'riqsiz qilish.</p>
+      <a href="tel:+998951705533" class="btn btn-gold" style="margin-top:30px"><svg><use href="#i-phone"/></svg><span data-i="cta1">Qabulga yozilish</span></a>
+    </div>
+    <div class="why-list">
+      <div class="why-item reveal"><span class="n">01</span><div><h3 data-i="y1t">Malakali yordam</h3><p data-i="y1p">Bemorlar bizni malakali tibbiy yordam ko'rsatgani uchun yuqori baholaydi.</p></div></div>
+      <div class="why-item reveal"><span class="n">02</span><div><h3 data-i="y2t">Aniq tushuntirish</h3><p data-i="y2p">Davolashdan oldin nima qilinishini va keyin qanday parvarish kerakligini batafsil tushuntiramiz.</p></div></div>
+      <div class="why-item reveal"><span class="n">03</span><div><h3 data-i="y3t">Vaqtingizni hurmat qilamiz</h3><p data-i="y3p">Klinika 21:00 gacha ochiq — ish yoki o'qishdan keyin ham kelishingiz mumkin.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow" data-i="st_eb">Qabul tartibi</span><h2 data-i="st_h">Qabulga qanday yozilish mumkin</h2></div>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h3 data-i="t1t">Qo'ng'iroq qiling</h3><p data-i="t1p">+998 95 170 55 33 raqamiga qo'ng'iroq qilib, qulay vaqtni kelishing.</p></div>
+      <div class="step reveal"><h3 data-i="t2t">Ko'rikdan o'ting</h3><p data-i="t2p">Shifokor tishlaringiz holatini baholaydi va muammoni aniqlaydi.</p></div>
+      <div class="step reveal"><h3 data-i="t3t">Reja bilan tanishing</h3><p data-i="t3p">Davolash bosqichlari va narxi haqida oldindan ma'lumot olasiz.</p></div>
+      <div class="step reveal"><h3 data-i="t4t">Davolanish</h3><p data-i="t4p">Qulay sharoitda davolanasiz va parvarish bo'yicha tavsiya olasiz.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow" data-i="r_eb">Sharhlar</span><h2 data-i="r_h">Bemorlar fikri</h2></div>
+      <p class="lead" data-i="r_p">Google Maps'dagi haqiqiy sharhlar. Reyting: 4,8 / 5.</p>
+    </div>
+    <div class="rv-grid">
+      <article class="rv reveal">
+        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p data-i="rv1">«Malakali tibbiy yordam.»</p>
+        <div class="who"><span class="av">N</span><div><b>Nurbek Abduvaliev</b><small data-i="rv1d">Google Maps</small></div></div>
+      </article>
+      <article class="rv reveal">
+        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p data-i="rv2">«Ajoyib stomatologiya!»</p>
+        <div class="who"><span class="av">X</span><div><b>Xolida Yakubova</b><small>Google Maps</small></div></div>
+      </article>
+      <article class="rv reveal" style="display:flex;flex-direction:column;justify-content:center;text-align:center;background:var(--teal);color:#fff">
+        <b style="font-family:'Fraunces',serif;font-size:56px;line-height:1;color:var(--gold)">4,8</b>
+        <p style="margin:12px 0 18px" data-i="rv3">Google Maps'dagi umumiy reyting</p>
+        <a class="btn btn-gold" target="_blank" rel="noopener" href="https://maps.app.goo.gl/TuigzFoFvggBThgHA" data-i="rv_btn">Sharh qoldirish</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i="k_eb">Aloqa</span>
+      <h2 data-i="k_h">Bizni toping</h2>
+      <div class="info">
+        <a href="tel:+998951705533"><span class="ic"><svg><use href="#i-phone"/></svg></span><div><small data-i="k1s">Telefon</small><strong>+998 95 170 55 33</strong></div></a>
+        <div class="row"><span class="ic"><svg><use href="#i-pin"/></svg></span><div><small data-i="k2s">Manzil</small><strong data-i="k2t">Yunusobod 4-kvartal, Turizm kolleji ro'parasi, Toshkent</strong></div></div>
+        <div class="row"><span class="ic"><svg><use href="#i-clock"/></svg></span><div><small data-i="k3s">Ish vaqti</small><strong data-i="k3t">21:00 gacha ochiq</strong></div></div>
+        <a target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=41.3618587,69.2809593"><span class="ic"><svg><use href="#i-route"/></svg></span><div><small data-i="k4s">Marshrut</small><strong data-i="k4t">Google Maps'da yo'l olish</strong></div></a>
+      </div>
+    </div>
+    <div class="map reveal">
+      <iframe title="Star-Stom Yunusobod xaritasi" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=41.3618587,69.2809593&z=16&hl=uz&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="box reveal">
+      <h2 data-i="b_h">Tabassumingizga g'amxo'rlik qilishni bugun boshlang</h2>
+      <a href="tel:+998951705533" class="btn btn-gold"><svg><use href="#i-phone"/></svg>+998 95 170 55 33</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <a href="#top" class="logo"><span class="logo-mark"><svg><use href="#i-star"/></svg></span><span>STAR-STOM<small>Yunusobod</small></span></a>
+      <ul>
+        <li><a href="#services" data-i="n_services">Xizmatlar</a></li>
+        <li><a href="#reviews" data-i="n_reviews">Sharhlar</a></li>
+        <li><a href="#contact" data-i="n_contact">Aloqa</a></li>
+        <li><a href="tel:+998951705533">+998 95 170 55 33</a></li>
+      </ul>
+    </div>
+    <div class="bot">
+      <span>© <span id="y"></span> STAR-STOM YUNUSOBOD</span>
+      <span data-i="foot">Toshkent, Yunusobod 4-kvartal</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+998951705533" class="fab" aria-label="Qo'ng'iroq"><svg><use href="#i-phone"/></svg></a>
+
+<script>
+const T = {
+  uz:{top_addr:"Yunusobod 4-kvartal, Toshkent",top_hours:"21:00 gacha ochiq",n_services:"Xizmatlar",n_why:"Afzalliklar",n_steps:"Qabul",n_reviews:"Sharhlar",n_contact:"Aloqa",call:"Qo'ng'iroq qilish",
+  badge:"Hozir ochiq · 21:00 gacha",h1a:"Sog'lom tabassum —",h1b:"sizning ishonchingiz",
+  hero_p:"Star-Stom Yunusobod — Toshkent shahrida tish davolash, olib tashlash, protezlash va professional tozalash xizmatlarini taklif etuvchi stomatologiya klinikasi.",
+  cta1:"Qabulga yozilish",cta2:"Manzilni ko'rish",rating_s:"Google Maps reytingi",
+  f1t:"Yunusobod 4-kvartal",f1s:"Turizm kolleji ro'parasida, Toshkent",f2t:"21:00 gacha ochiq",f2s:"Ish tugagach ham qulay vaqtda keling",f3s:"Qabulga yozilish uchun qo'ng'iroq qiling",
+  s1t:"Mehribon munosabat",s1s:"Har bir bemorga e'tibor",s2t:"Xavfsiz davolash",s2s:"Sterillik va gigiyena",s3t:"Qulay jadval",s3s:"Kechgacha qabul",s4t:"Qulay joylashuv",s4s:"Yunusobod markazida",
+  sv_eb:"Xizmatlar",sv_h:"Tish salomatligi uchun<br>to'liq yechimlar",sv_p:"Narxlar va davolash rejasi dastlabki ko'rikdan so'ng shifokor tomonidan aniqlanadi.",
+  c1t:"Tish davolash",c1p:"Kariesni va uning asoratlarini davolash, zamonaviy plomba materiallari bilan tishni tiklash.",
+  c2t:"Professional tozalash",c2p:"Tish toshi va karashni olib tashlash, tishlarning tabiiy oqligi va toza nafasni qaytarish.",
+  c3t:"Tish olib tashlash",c3p:"Kerak bo'lganda ehtiyotkorlik bilan, og'riqsizlantirish ostida va keyingi parvarish bo'yicha tavsiyalar bilan.",
+  c4t:"Protezlash",c4p:"Yo'qolgan tishlarni tiklash — chiroyli va qulay protezlar bilan to'liq chaynash imkoniyati.",
+  c5t:"Katta va bolalar uchun",c5p:"Butun oila uchun tish ko'rigi va maslahat — bir joyda.",
+  c6t:"Maslahat va ko'rik",c6p:"Muammoni aniqlash, davolash rejasi va og'iz bo'shlig'i gigiyenasi bo'yicha tavsiyalar.",
+  w_eb:"Nega biz",w_h:"Siz ishonib kelishingiz mumkin bo'lgan klinika",w_p:"Bizning maqsadimiz — davolashni sizga tushunarli, qulay va og'riqsiz qilish.",
+  y1t:"Malakali yordam",y1p:"Bemorlar bizni malakali tibbiy yordam ko'rsatgani uchun yuqori baholaydi.",
+  y2t:"Aniq tushuntirish",y2p:"Davolashdan oldin nima qilinishini va keyin qanday parvarish kerakligini batafsil tushuntiramiz.",
+  y3t:"Vaqtingizni hurmat qilamiz",y3p:"Klinika 21:00 gacha ochiq — ish yoki o'qishdan keyin ham kelishingiz mumkin.",
+  st_eb:"Qabul tartibi",st_h:"Qabulga qanday yozilish mumkin",
+  t1t:"Qo'ng'iroq qiling",t1p:"+998 95 170 55 33 raqamiga qo'ng'iroq qilib, qulay vaqtni kelishing.",
+  t2t:"Ko'rikdan o'ting",t2p:"Shifokor tishlaringiz holatini baholaydi va muammoni aniqlaydi.",
+  t3t:"Reja bilan tanishing",t3p:"Davolash bosqichlari va narxi haqida oldindan ma'lumot olasiz.",
+  t4t:"Davolanish",t4p:"Qulay sharoitda davolanasiz va parvarish bo'yicha tavsiya olasiz.",
+  r_eb:"Sharhlar",r_h:"Bemorlar fikri",r_p:"Google Maps'dagi haqiqiy sharhlar. Reyting: 4,8 / 5.",
+  rv1:"«Malakali tibbiy yordam.»",rv1d:"Google Maps",rv2:"«Ajoyib stomatologiya!»",rv3:"Google Maps'dagi umumiy reyting",rv_btn:"Sharh qoldirish",
+  k_eb:"Aloqa",k_h:"Bizni toping",k1s:"Telefon",k2s:"Manzil",k2t:"Yunusobod 4-kvartal, Turizm kolleji ro'parasi, Toshkent",k3s:"Ish vaqti",k3t:"21:00 gacha ochiq",k4s:"Marshrut",k4t:"Google Maps'da yo'l olish",
+  b_h:"Tabassumingizga g'amxo'rlik qilishni bugun boshlang",foot:"Toshkent, Yunusobod 4-kvartal"},
+  ru:{top_addr:"Юнусабад, 4-й квартал, Ташкент",top_hours:"Открыто до 21:00",n_services:"Услуги",n_why:"Преимущества",n_steps:"Запись",n_reviews:"Отзывы",n_contact:"Контакты",call:"Позвонить",
+  badge:"Сейчас открыто · до 21:00",h1a:"Здоровая улыбка —",h1b:"ваша уверенность",
+  hero_p:"Star-Stom Yunusobod — стоматологическая клиника в Ташкенте: лечение и удаление зубов, протезирование и профессиональная чистка.",
+  cta1:"Записаться на приём",cta2:"Посмотреть адрес",rating_s:"Рейтинг на Google Maps",
+  f1t:"Юнусабад, 4-й квартал",f1s:"Напротив колледжа туризма, Ташкент",f2t:"Открыто до 21:00",f2s:"Приходите в удобное время после работы",f3s:"Позвоните, чтобы записаться на приём",
+  s1t:"Чуткое отношение",s1s:"Внимание к каждому пациенту",s2t:"Безопасное лечение",s2s:"Стерильность и гигиена",s3t:"Удобный график",s3s:"Приём до позднего вечера",s4t:"Удобное расположение",s4s:"В центре Юнусабада",
+  sv_eb:"Услуги",sv_h:"Комплексная забота<br>о здоровье зубов",sv_p:"Стоимость и план лечения определяет врач после первичного осмотра.",
+  c1t:"Лечение зубов",c1p:"Лечение кариеса и его осложнений, восстановление зуба современными пломбировочными материалами.",
+  c2t:"Профессиональная чистка",c2p:"Удаление зубного камня и налёта, естественная белизна зубов и свежее дыхание.",
+  c3t:"Удаление зубов",c3p:"При необходимости — бережно, под обезболиванием и с рекомендациями по дальнейшему уходу.",
+  c4t:"Протезирование",c4p:"Восстановление утраченных зубов — красивые и удобные протезы для полноценного жевания.",
+  c5t:"Для взрослых и детей",c5p:"Осмотр и консультация для всей семьи — в одном месте.",
+  c6t:"Консультация и осмотр",c6p:"Выявление проблемы, план лечения и рекомендации по гигиене полости рта.",
+  w_eb:"Почему мы",w_h:"Клиника, которой можно доверять",w_p:"Наша цель — сделать лечение понятным, удобным и комфортным для вас.",
+  y1t:"Квалифицированная помощь",y1p:"Пациенты высоко ценят нас за квалифицированную медицинскую помощь.",
+  y2t:"Понятные объяснения",y2p:"Подробно объясняем, что будет сделано и как ухаживать за зубами после лечения.",
+  y3t:"Уважаем ваше время",y3p:"Клиника открыта до 21:00 — можно прийти после работы или учёбы.",
+  st_eb:"Порядок записи",st_h:"Как записаться на приём",
+  t1t:"Позвоните нам",t1p:"Позвоните по номеру +998 95 170 55 33 и согласуйте удобное время.",
+  t2t:"Пройдите осмотр",t2p:"Врач оценит состояние зубов и определит проблему.",
+  t3t:"Узнайте план",t3p:"Заранее получите информацию об этапах и стоимости лечения.",
+  t4t:"Лечение",t4p:"Лечитесь в комфортных условиях и получите рекомендации по уходу.",
+  r_eb:"Отзывы",r_h:"Что говорят пациенты",r_p:"Реальные отзывы с Google Maps. Рейтинг: 4,8 / 5.",
+  rv1:"«Квалифицированная медицинская помощь.»",rv1d:"Google Maps",rv2:"«Классная стоматология!»",rv3:"Общий рейтинг на Google Maps",rv_btn:"Оставить отзыв",
+  k_eb:"Контакты",k_h:"Как нас найти",k1s:"Телефон",k2s:"Адрес",k2t:"Юнусабад, 4-й квартал, напротив колледжа туризма, Ташкент",k3s:"Время работы",k3t:"Открыто до 21:00",k4s:"Маршрут",k4t:"Проложить маршрут в Google Maps",
+  b_h:"Начните заботиться о своей улыбке уже сегодня",foot:"Ташкент, Юнусабад, 4-й квартал"}
+};
+function setLang(l){
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-i]').forEach(el=>{const v=T[l][el.dataset.i]; if(v!==undefined) el.innerHTML=v;});
+  document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));
+  try{localStorage.setItem('lang',l)}catch(e){}
+}
+document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLang(b.dataset.lang));
+let saved='uz'; try{saved=localStorage.getItem('lang')||'uz'}catch(e){}
+if(saved!=='uz') setLang(saved);
+document.getElementById('y').textContent=new Date().getFullYear();
+const nav=document.getElementById('nav');
+document.getElementById('burger').onclick=()=>nav.classList.toggle('open');
+nav.querySelectorAll('a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
